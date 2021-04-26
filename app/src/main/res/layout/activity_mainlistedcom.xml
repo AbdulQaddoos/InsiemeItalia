@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/insbg" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="180dp"
+android:layout_marginBottom="50dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:context="com.example.uafmap.MainActivityListedCom">
+
+        <Button
+            android:id="@+id/amDirection"
+            style="@style/button_text"
+
+            android:background="#585854"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codice Fiscale"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/amBtnIBMmap"
+            style="@style/button_text"
+            android:background="#585854"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:text="CAF"
+
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/amBtnChildEdu"
+            style="@style/button_text"
+            android:background="#585854"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patronato"
+
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/amBtnElectronics"
+            style="@style/button_text"
+            android:layout_width="match_parent"
+            android:background="#585854"
+
+            android:layout_height="wrap_content"
+            android:text="Health Insurance"
+            android:textStyle="bold|italic"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/amBtnFoods"
+            style="@style/button_text"
+            android:background="#585854"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Erasmus"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/amBtnFinance"
+            style="@style/button_text"
+
+            android:layout_width="match_parent"
+            android:background="#585854"
+            android:layout_height="wrap_content"
+            android:text="Students Help Desk"
+            android:textStyle="bold|italic" />
+
+<!--        <Button-->
+<!--            android:id="@+id/amBtnRealestate"-->
+<!--            style="@style/button_text"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_weight="4.14"-->
+<!--            android:drawableLeft="@drawable/realestatesandaccommodation"-->
+
+<!--            android:textStyle="bold|italic" /> -->
+
+<!--        <Button-->
+<!--            android:id="@+id/amBtnHealthBody"-->
+<!--            style="@style/button_text"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:drawableLeft="@drawable/healthandbody"-->
+
+<!--            android:textStyle="bold|italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/amBtnSports"-->
+<!--            style="@style/button_text"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_weight="1.62"-->
+<!--            android:drawableLeft="@drawable/sportsbutton"-->
+
+<!--            android:textStyle="bold|italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/amBtnTravel"-->
+<!--            style="@style/button_text"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_weight="1.38"-->
+<!--            android:drawableLeft="@drawable/travelbutton"-->
+
+<!--            android:textStyle="bold|italic" />-->
+
+
+
+    </LinearLayout>
+
+</ScrollView>
