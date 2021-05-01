@@ -17,8 +17,8 @@ public class MainActivityList extends AppCompatActivity {
         lv = (ListView)findViewById(R.id.listView);
 
         CountryClass[] countries = new CountryClass[]{
-                new CountryClass("President", "Ahmed ElGendy",R.drawable.ahmed),
-                new CountryClass("", "Via Pietro Bucci,Rende,Cosenza 87036.\nEmail:info.insieme@blu.it\nMobile:+393885843856",R.drawable.test),
+                new CountryClass("President", "Ahmed Elgendy",R.drawable.ahmed),
+                new CountryClass("", "Via Pietro Bucci, Rende, Cosenza 87036.\nEmail:info.insieme@blu.it\nMobile:+393885843856",R.drawable.test),
 //              new CountryClass("President", "Ahmed Mohamed ElGendy",R.drawable.logo),
 //                new CountryClass("Vice-President", "Moiz Khan Sherwani",R.drawable.logo),
 //                new CountryClass("Member", "Mahmoud Ezzat Kamel Elsayed",R.drawable.logo),

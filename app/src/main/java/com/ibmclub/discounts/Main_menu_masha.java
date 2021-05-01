@@ -169,8 +169,8 @@ public class Main_menu_masha extends Activity implements
 		public void onLocationChanged(Location location) {
 
 			mLastLocation_masha = location;
-			localDouble1_masha = Double.valueOf(location.getLongitude());
-			localDouble2_masha = Double.valueOf(location.getLatitude());
+			localDouble1_masha = location.getLongitude();
+			localDouble2_masha = location.getLatitude();
 
 		}
 
