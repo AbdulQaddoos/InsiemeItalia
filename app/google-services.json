@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "173681789255",
+    "firebase_url": "https://insieme-aae4d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "insieme-aae4d",
+    "storage_bucket": "insieme-aae4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173681789255:android:dc9b8aaecaa521bdf8e462",
+        "android_client_info": {
+          "package_name": "it.organization.insieme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173681789255-6b3spmilvb89kbs7pk4nm8tup6sdm5kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkLmr29oScA0dRD9VGaYtb-A8kTC9HhD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173681789255-6b3spmilvb89kbs7pk4nm8tup6sdm5kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

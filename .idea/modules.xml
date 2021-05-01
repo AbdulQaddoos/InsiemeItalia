@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InsiemeItalia.iml" filepath="$PROJECT_DIR$/.idea/modules/InsiemeItalia.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InsiemeItalia.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InsiemeItalia.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/androidVolleyLibrary.iml" filepath="$PROJECT_DIR$/androidVolleyLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/androidVolleyLibrary.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/androidVolleyLibrary.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Projects.InsiemeItalia.iml" filepath="$PROJECT_DIR$/.idea/modules/Projects.InsiemeItalia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Projects.InsiemeItalia.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Projects.InsiemeItalia.app.iml" />
     </modules>
   </component>
 </project>
