@@ -17,6 +17,17 @@ android:layout_marginBottom="50dp"
         tools:context="com.example.uafmap.MainActivityListedCom">
 
         <Button
+            android:id="@+id/remButton"
+            style="@style/button_text"
+            android:onClick="rem"
+            android:background="#585854"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REM"
+
+            android:textStyle="bold" />
+
+        <Button
             android:id="@+id/amDirection"
             style="@style/button_text"
 

@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class MainActivityListedCom extends Activity implements OnClickListener {
 
-	Button Ibmmap, childcareEdu, electronics, foods, finance, realEstate,Quickdirection, healthBody,
+	Button Ibmmap, childcareEdu, electronics, foods, finance, realEstate,Quickdirection, rem,
 			sports, travel, others, Exit;
 
 	MyLocation myLocation;
@@ -23,11 +23,12 @@ public class MainActivityListedCom extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_mainlistedcom);
 
-		Ibmmap = (Button) findViewById(R.id.amBtnIBMmap);
-		childcareEdu = (Button) findViewById(R.id.amBtnChildEdu);
-		electronics = (Button) findViewById(R.id.amBtnElectronics);
-		foods = (Button) findViewById(R.id.amBtnFoods);
-		finance = (Button) findViewById(R.id.amBtnFinance);
+		Ibmmap =  findViewById(R.id.amBtnIBMmap);
+		childcareEdu =  findViewById(R.id.amBtnChildEdu);
+		electronics =  findViewById(R.id.amBtnElectronics);
+		foods =  findViewById(R.id.amBtnFoods);
+		finance =  findViewById(R.id.amBtnFinance);
+		rem =  findViewById(R.id.remButton);
 		//realEstate= (Button) findViewById(R.id.amBtnRealestate);
 		//healthBody = (Button) findViewById(R.id.amBtnHealthBody);
 		//sports = (Button) findViewById(R.id.amBtnSports);
@@ -144,5 +145,9 @@ public class MainActivityListedCom extends Activity implements OnClickListener {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+
+	public void rem(View view) {
+
 	}
 }
