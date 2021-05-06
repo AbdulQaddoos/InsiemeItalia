@@ -27,7 +27,7 @@ public class RemInfo extends AppCompatActivity {
         person.setStato_domanda(getIntent().getStringExtra("stato_domanda"));
 
         if(person.getCodice_fiscale() == null){
-            infoText.setText("Lei non risulta nei nostri archivi. Si prega di contattare l'amministratore:\n\n3885843856");
+            infoText.setText("You are not in our Archives.please contact the Administrator:\n\n3885843856");
         }
         else{
             infoText.setText(person.toString());

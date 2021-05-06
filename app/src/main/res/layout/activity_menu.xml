@@ -18,7 +18,7 @@
         android:gravity="center"
         android:orientation="vertical"
 
-        android:paddingTop="180dp"
+        android:paddingTop="181dp"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-16dp">
