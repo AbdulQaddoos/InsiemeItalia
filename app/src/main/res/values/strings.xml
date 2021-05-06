@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Insieme</string>
+    <string name="app_name">INSIEME</string>
+    <!--<string name="string_request">String Request</string>-->
+    <!--<string name="json_object_request">Json Object Request</string>-->
+    <string name="json_array_request">List of Discounted companies</string>
+    <!--<string name="image_request">Image Request</string>-->
+    <string name="click_button_example"></string>
+    <string name="get_request">GET REQUEST</string>
+    <string name="about_page_description" translatable="false">"About us:\nINSIEME was founded in the year 2019 and providing continuous services till the data.INSIEME is registered as non-profit organization.Our INSIEME family consists of more than 69 nationalities.Our main activities include promoting cultural initiatives, bureaucratic documentations, meetings and other activities.\n\nMission:\nOur mission is to facilitate meaningful involvement, community engagement and leadership development, which enable all students to contribute a global society.\n\nVision:\nOur vision is to develop well rounded, confident and responsible individuals who are confident enough to integrate with international community. We will do this by providing a welcoming, happy, safe and supportive environment in which everyone is equal and all achievements are celebrated."</string>
+    <string name="about_contact_us">Email ID</string>
+
+    <!--	<string name="about_website">Visit our Whatsapp Group</string>-->
+    <!--	<string name="about_facebook">Visit our Facebook Group</string>-->
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="googleMapKeyDebFug">AIzaSyARf8QQUTFfhriISvNV7_uI5SjIo_ZBC8U</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+
+    <!--<string name="load_image_into_imageview">Load image into ImageView</string>-->
+    <!--<string name="imageview">imageView</string>-->
+    <!--<string name="load_image_with_placehodler_error_into_imageview">Load image with Placehodler and Error into ImageView</string>-->
+    <!--<string name="load_image_into_networkimageview">Load image into NetworkImageView</string>-->
+    <string name="fetch_data">Listed Companies</string>
+    <string name="post_request">POST REQUEST</string>
 </resources>

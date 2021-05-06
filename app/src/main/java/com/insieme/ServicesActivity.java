@@ -22,4 +22,25 @@ public class ServicesActivity extends AppCompatActivity {
 
     public void italianCode(View view) {
     }
+
+    public void codice(View view) {
+        Intent codicebtn = new Intent(ServicesActivity.this, appointments.class);
+        ServicesActivity.this.startActivity(codicebtn);
+    }
+
+    public void caf(View view) {
+        Intent cafBtn = new Intent(ServicesActivity.this, appointments.class);
+        ServicesActivity.this.startActivity(cafBtn);
+    }
+
+    public void helpDesk(View view) {
+        Intent helpDesk = new Intent(ServicesActivity.this, appointments.class);
+        ServicesActivity.this.startActivity(helpDesk);
+    }
+
+    public void Isee(View view) {
+        Intent Iseebtn = new Intent(ServicesActivity.this, appointments.class);
+        ServicesActivity.this.startActivity(Iseebtn);
+    }
+
 }

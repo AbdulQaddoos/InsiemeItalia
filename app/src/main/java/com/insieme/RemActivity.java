@@ -34,7 +34,7 @@ public class RemActivity extends AppCompatActivity {
         ref = FirebaseDatabase.getInstance().getReference().child("People");
         people = new ArrayList<>();
         codeCase = findViewById(R.id.codeCase);
-        textView = findViewById(R.id.textView);
+//        textView = findViewById(R.id.textView);
     }
 
 

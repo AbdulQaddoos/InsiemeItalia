@@ -1,45 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="@drawable/b_g"
-    tools:context=".ServicesActivity">
+    android:background="@drawable/ssss"
+    tools:context=".ServicesActivity"
+    tools:ignore="MissingClass">
 
-    <Button
-        android:id="@+id/rem"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="292dp"
-        android:drawableLeft="@drawable/rem"
-        android:text="REM"
-        android:onClick="rem"
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        android:paddingTop="180dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.662"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/italianCode"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="244dp"
-        android:drawableLeft="@drawable/italian_code"
-        android:text="Codice fiscale"
-        android:onClick="italianCode"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp">
 
 
+        <ImageView
+            android:id="@+id/rem"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/remmm"
+            android:onClick="rem"
+            tools:ignore="InvalidId" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <!--        <Button-->
+        <!--            android:id="@+id/about_us"-->
+        <!--            android:layout_width="235dp"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:background="@drawable/about_us"-->
+        <!--            android:onClick="aboutUs" />-->
+
+
+        <ImageView
+            android:id="@+id/caf"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/caf"
+            android:onClick="caf"
+            tools:ignore="InvalidId" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/services"-->
+        <!--            android:layout_width="235dp"-->
+        <!--            android:layout_height="60dp"-->
+
+
+        <!--            android:drawableLeft="@drawable/services"-->
+
+        <!--            android:onClick="services" />-->
+
+        <ImageView
+            android:id="@+id/helpdesk"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/isee"
+            android:onClick="helpDesk"
+            tools:ignore="InvalidId" />
+        <ImageView
+            android:id="@+id/Isee"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/student"
+            android:onClick="Isee" />
+
+
+</LinearLayout>
+</LinearLayout>

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Projects.InsiemeItalia.iml" filepath="$PROJECT_DIR$/.idea/modules/Projects.InsiemeItalia.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Projects.InsiemeItalia.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Projects.InsiemeItalia.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidVolleyLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/androidVolleyLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/androidVolleyLibrary.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/androidVolleyLibrary.app.iml" />
     </modules>
   </component>
 </project>

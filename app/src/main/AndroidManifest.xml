@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.insieme">
 
     <application
@@ -10,9 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Insieme">
         <activity android:name=".RemInfo"></activity>
+        <activity
+            android:name=".MainActivityAbout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivityList"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".RemActivity" />
         <activity android:name=".ServicesActivity" />
         <activity android:name=".MenuActivity" />
+        <activity android:name=".appointments"
+            tools:ignore="DuplicateActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

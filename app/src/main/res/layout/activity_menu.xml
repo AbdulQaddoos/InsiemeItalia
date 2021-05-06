@@ -5,56 +5,85 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/b_g"
+    android:background="@drawable/ssss"
+    android:weightSum="10"
     tools:context=".MenuActivity">
 
-    <Button
-        android:id="@+id/about_us"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="292dp"
-        android:drawableLeft="@drawable/info"
-        android:text="About Us"
-        android:onClick="aboutUs"
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="68dp"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        android:paddingTop="180dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.662"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/services"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="244dp"
-        android:drawableLeft="@drawable/services"
-        android:text="Services"
-        android:onClick="services"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/contact_us"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="188dp"
-        android:drawableLeft="@drawable/contact_us"
-        android:text="Contact Us"
-        android:onClick="contactUs"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.621"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp">
 
 
+        <ImageView
+            android:id="@+id/about_us"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/about_us"
+            android:onClick="aboutUs"
+            tools:ignore="InvalidId" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/about_us"-->
+        <!--            android:layout_width="235dp"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:background="@drawable/about_us"-->
+        <!--            android:onClick="aboutUs" />-->
+
+
+        <ImageView
+            android:id="@+id/services"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/service"
+            android:onClick="services"
+            tools:ignore="InvalidId" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/services"-->
+        <!--            android:layout_width="235dp"-->
+        <!--            android:layout_height="60dp"-->
+
+
+        <!--            android:drawableLeft="@drawable/services"-->
+
+        <!--            android:onClick="services" />-->
+
+        <ImageView
+            android:id="@+id/appointments"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/appointments"
+            android:onClick="appointments"
+            tools:ignore="InvalidId" />
+        <ImageView
+            android:id="@+id/contact_us"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/contactus"
+            android:onClick="contactUs" />
+        <!--        <Button-->
+        <!--            android:id="@+id/contact_us"-->
+        <!--            android:layout_width="235dp"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:layout_marginTop="10dp"-->
+
+        <!--            android:drawableLeft="@drawable/contact_us"-->
+
+        <!--            android:onClick="contactUs" />-->
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
