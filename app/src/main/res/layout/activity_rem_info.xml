@@ -19,7 +19,7 @@
         android:paddingTop="50dp"
 
         android:textColor="#ffffff"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

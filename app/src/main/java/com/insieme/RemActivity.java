@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -25,7 +27,7 @@ public class RemActivity extends AppCompatActivity {
     List<Person> people;
     DatabaseReference ref;
     EditText codeCase;
-    TextView textView;
+    ProgressBar spinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +36,8 @@ public class RemActivity extends AppCompatActivity {
         ref = FirebaseDatabase.getInstance().getReference().child("People");
         people = new ArrayList<>();
         codeCase = findViewById(R.id.codeCase);
-//        textView = findViewById(R.id.textView);
+        spinner = findViewById(R.id.spinner);
+        spinner.setVisibility(View.INVISIBLE);
     }
 
 
@@ -44,6 +47,7 @@ public class RemActivity extends AppCompatActivity {
             codeCase.setError("Codice Richiesto");
         }
         else {
+            spinner.setVisibility(View.VISIBLE);
             ref.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -60,8 +64,12 @@ public class RemActivity extends AppCompatActivity {
                             intent.putExtra("codice_fiscale", person.getCodice_fiscale());
                             intent.putExtra("nome", person.getNome());
                             intent.putExtra("protocollo_INPS", person.getProtocollo_INPS());
+                            intent.putExtra("data_present", person.getData_present());
                             intent.putExtra("stato_domanda", person.getStato_domanda());
+                            intent.putExtra("data_acquisizione", person.getData_acquisizione());
+                            intent.putExtra("data_accoglimento", person.getData_accoglimento());
                         }
+                        spinner.setVisibility(View.INVISIBLE);
                         RemActivity.this.startActivity(intent);
                     }
                 }
@@ -71,6 +79,7 @@ public class RemActivity extends AppCompatActivity {
 
                 }
             });
+
         }
     }
 }
