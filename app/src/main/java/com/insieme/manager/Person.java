@@ -51,9 +51,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return  "Cognome e Nome:\n      " + nome + "\n\n" +
-                "Codice Fiscale:\n          " + codice_fiscale + "\n\n" +
-                "Stato Domanda:\n           " + stato_domanda + "\n\n" +
-                "Protocollo (INPS):\n      " + protocollo_INPS + "\n\n" ;
+        return  "Cognome e Nome:\n" + nome + "\n\n" +
+                "Codice Fiscale:\n" + codice_fiscale + "\n\n" +
+                "Stato Domanda:\n" + stato_domanda + "\n\n" +
+                "Protocollo (INPS):\n" + protocollo_INPS + "\n\n" ;
     }
 }

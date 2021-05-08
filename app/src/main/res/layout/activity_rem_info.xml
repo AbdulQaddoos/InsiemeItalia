@@ -11,18 +11,32 @@
 
     <TextView
         android:id="@+id/rem_info"
-        android:layout_width="339dp"
-        android:layout_height="340dp"
+        android:layout_width="343dp"
+        android:layout_height="419dp"
 
-        android:paddingTop="50dp"
-        android:gravity="center"
         android:layout_marginBottom="0.5dp"
+        android:gravity="center"
+        android:paddingTop="50dp"
 
         android:textColor="#ffffff"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/wtsp"
+        android:layout_width="95dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="296dp"
+        android:onClick="whatsapp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/wtsp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
