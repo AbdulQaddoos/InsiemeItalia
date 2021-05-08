@@ -67,22 +67,12 @@ public class Person {
         this.protocollo_INPS = protocollo_INPS;
     }
 
-    public Person(String nome, String codice_fiscale, String stato_domanda, String protocollo_INPS){
-        this.nome = nome;
-        this.codice_fiscale = codice_fiscale;
-        this.stato_domanda = stato_domanda;
-        this.protocollo_INPS = protocollo_INPS;
-
-    }
 
     @Override
     public String toString() {
-        return  "*Cognome e Nome*:\n-" + nome + "\n" +
-                "*Codice Fiscale*:\n-" + codice_fiscale + "\n" +
-                "*Data Present.*:\n-" + data_present + "\n" +
-                "*Stato Domanda*:\n-" + stato_domanda + "\n" +
-                "*Protocollo (INPS)*:\n-" + protocollo_INPS + "\n" +
-                "*Data Acquisizione*:\n-" + data_acquisizione + "\n" +
-                "*Data Accoglimento*:\n-" + data_accoglimento + "\n" ;
+        return  "Cognome e Nome:\n" + nome + "\n\n" +
+                "Codice Fiscale:\n" + codice_fiscale + "\n\n" +
+                "Stato Domanda:\n" + stato_domanda + "\n\n" +
+                "Protocollo (INPS):\n" + protocollo_INPS + "\n\n";
     }
 }

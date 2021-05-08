@@ -31,9 +31,6 @@ public class RemInfo extends AppCompatActivity {
         person.setNome(getIntent().getStringExtra("nome"));
         person.setProtocollo_INPS(getIntent().getStringExtra("protocollo_INPS"));
         person.setStato_domanda(getIntent().getStringExtra("stato_domanda"));
-        person.setData_present(getIntent().getStringExtra("data_present"));
-        person.setData_acquisizione(getIntent().getStringExtra("data_acquisizione"));
-        person.setData_accoglimento(getIntent().getStringExtra("data_accoglimento"));
 
         if(person.getCodice_fiscale() == null){
             infoText.setText("You are not in our Archives. please contact the Administrator:\n\n3885843856");

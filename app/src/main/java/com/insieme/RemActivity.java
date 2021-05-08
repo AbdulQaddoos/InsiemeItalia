@@ -64,10 +64,7 @@ public class RemActivity extends AppCompatActivity {
                             intent.putExtra("codice_fiscale", person.getCodice_fiscale());
                             intent.putExtra("nome", person.getNome());
                             intent.putExtra("protocollo_INPS", person.getProtocollo_INPS());
-                            intent.putExtra("data_present", person.getData_present());
                             intent.putExtra("stato_domanda", person.getStato_domanda());
-                            intent.putExtra("data_acquisizione", person.getData_acquisizione());
-                            intent.putExtra("data_accoglimento", person.getData_accoglimento());
                         }
                         spinner.setVisibility(View.INVISIBLE);
                         RemActivity.this.startActivity(intent);
