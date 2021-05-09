@@ -42,7 +42,7 @@ public class RemInfo extends AppCompatActivity {
     }
 
     public void whatsapp(View view) {
-        Uri uri = Uri.parse("https://wa.me/message/O5TPHZC7HRRCP1");
+        Uri uri = Uri.parse("https://wa.me/+393885843856/?text=I%20COULDN'T%20FIND%20MY%20REM%20REQUEST%20PLEASE%20CHECK%20IT");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
